@@ -39,7 +39,7 @@ const ChangeUserRole = ({
             toast.success(responseData.message)
             onClose()
             callFunc()
-            window.location.reload();
+
         }
 
         console.log("role updated",responseData)
